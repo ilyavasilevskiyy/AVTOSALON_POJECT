@@ -1,0 +1,432 @@
+@font-face {
+  font-family: Inter;
+  src: url(../font/Inter-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #526bfc38;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-family: Inter;
+  font-weight: 300;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  text-shadow: 1px 1px 15px #ff4747bb;
+}
+
+.cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cars h1 {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  color: #1f1fa5;
+}
+
+.cars figure {
+  margin: 5vh auto;
+}
+
+.cars figure figcaption {
+  text-align: center;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.consult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consult h1 {
+  text-align: center;
+  font-family: Inter;
+  font-weight: bold;
+}
+
+.consult hr {
+  width: 15vw;
+  border: 1px solid grey;
+  background-color: grey;
+}
+
+.consult .form_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.consult .form_content img {
+  width: 40vw;
+  border-radius: 3vw;
+}
+
+.consult .form_content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(83, 155, 250, 0.035);
+  border-radius: 3vw;
+  padding: 4vw;
+}
+
+.consult .form_content form h2 {
+  font-family: Inter;
+  font-weight: 500;
+  text-align: center;
+}
+
+.consult .form_content form input[type="text"] {
+  font-family: Inter;
+  border-radius: 0.7vw;
+  margin: 0.5vw;
+  background-color: #4763ff17;
+  border: none;
+  color: #7a7979;
+  outline: none;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.consult .form_content form input[type="text"]:hover {
+  outline: 1px solid #4763ff7a;
+}
+
+.consult .form_content form input[type="text"]:focus {
+  outline: 1px solid #4763ff;
+}
+
+.consult .form_content form input[type="submit"] {
+  font-family: Inter;
+  padding: 1vw;
+  border-radius: 0.7vw;
+  margin: 2vw 0.5vw;
+  background-color: #4763ff;
+  border: none;
+  color: #fcfcfc;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.consult .form_content form input[type="submit"]:hover {
+  background-color: #3654fa;
+}
+
+.consult .form_content form input[type="submit"]:active {
+  background-color: #0d2ee9;
+}
+
+.location {
+  margin: 10vh -0.45vw 0 -0.45vw;
+  padding: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #F4F4F4;
+}
+
+.location .text_content h1 {
+  font-family: Inter;
+}
+
+.location .text_content h2 {
+  font-family: Inter;
+  font-weight: 500;
+  color: #7a7979;
+}
+
+.location img {
+  border-radius: 1.5vw;
+  outline: 2px solid #d4d3d3ad;
+  -webkit-box-shadow: 0 0 15px #57555546;
+          box-shadow: 0 0 15px #57555546;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  color: white;
+  margin: 0 -8px -1vh -8px;
+  padding-bottom: 4vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer span {
+  padding-bottom: 0.7vw;
+}
+
+footer h3, footer span {
+  font-family: Inter;
+  font-weight: 100;
+}
+
+footer span img {
+  margin: 0 3px -5px 0;
+}
+
+footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 760px) {
+  nav {
+    margin: -5px;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  nav ul li {
+    font-size: 4.5vw;
+    margin: 2vw 0;
+  }
+  nav ul li:last-child {
+    padding-bottom: 5vw;
+  }
+  nav ul li img {
+    display: none;
+    width: 40vw;
+    margin: -2vh 0 0 -12vw;
+  }
+  .cars h1 {
+    font-size: 7vw;
+    margin-bottom: 10vh;
+  }
+  .cars figure img {
+    width: 80vw;
+  }
+  .cars figure figcaption {
+    font-size: 5vw;
+  }
+  .partners {
+    margin: 5vh 0 0 0;
+  }
+  .consult {
+    margin-top: 5vh;
+  }
+  .consult h1 {
+    font-size: 6vw;
+  }
+  .consult h2 {
+    margin-bottom: 10vw;
+  }
+  .consult img {
+    display: none;
+  }
+  .consult .form_content form h2 {
+    font-size: 5vw;
+  }
+  .consult .form_content form input[type="text"] {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+  .consult .form_content form input[type="submit"] {
+    font-size: 4vw;
+    margin-top: 3vw;
+  }
+  .location {
+    padding-bottom: 5vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .location h1 {
+    font-size: 5vw;
+  }
+  .location h2 {
+    font-size: 3vw;
+  }
+  .location .location-img {
+    width: 70vw;
+    display: block;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer img {
+    width: 5vw;
+  }
+  footer .dark_logo {
+    width: 50vw;
+  }
+  footer .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  footer .contacts h3:first-child {
+    font-size: 4vw;
+    margin-bottom: 6vw;
+  }
+  footer .contacts h3, footer .contacts span {
+    font-size: 3vw;
+    margin: 0;
+  }
+  footer .social-media {
+    margin-top: 5vw;
+    margin-bottom: -2px;
+  }
+  footer .social-media span {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 760px) {
+  nav {
+    margin: -20px -8px 0 -8px;
+    padding: 0;
+  }
+  nav li {
+    font-size: 1.25vw;
+  }
+  nav li img {
+    width: 20vw;
+    margin: 0 0 0 -5vw;
+  }
+  .cars h1 {
+    font-size: 4vw;
+    margin-bottom: 20vh;
+  }
+  .cars figure img {
+    width: 50vw;
+  }
+  .cars figure figcaption {
+    font-size: 3vw;
+  }
+  .partners {
+    margin: 10vh 0 0 0;
+  }
+  .consult {
+    margin: 20vh 0 0 0;
+  }
+  .consult h1 {
+    font-size: 2.5vw;
+  }
+  .consult hr {
+    margin-bottom: 10vh;
+  }
+  .consult h2 {
+    margin-bottom: 5vh;
+  }
+  .consult .form_content form h2 {
+    font-size: 2vw;
+  }
+  .consult .form_content form input[type="text"] {
+    font-size: 1vw;
+    padding: 1vw;
+  }
+  .consult .form_content form input[type="submit"] {
+    font-size: 1vw;
+  }
+  .location h1 {
+    font-size: 2.5vw;
+  }
+  .location h2 {
+    font-size: 1.25vw;
+  }
+  .location .location-img {
+    width: 40vw;
+    margin-left: 10vw;
+  }
+  footer img {
+    width: 1.5vw;
+  }
+  footer .dark_logo {
+    width: 20vw;
+  }
+  footer h3, footer span {
+    font-size: 1vw;
+  }
+}
+/*# sourceMappingURL=light-cars.css.map */
